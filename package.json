@@ -1,0 +1,16 @@
+{
+  "name": "subgraphs-storage-exporter",
+  "version": "0.1.0",
+  "description": "Prometheus exporter for per-subgraph on-disk footprint — sizes each graph-node sgd<N> schema across the sharded Postgres backend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "typecheck": "bun --bun tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
