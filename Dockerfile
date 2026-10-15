@@ -1,6 +1,6 @@
 # Zero-dependency Bun app (Bun's built-in SQL for Postgres) — no install step needed.
 # Bun >= 1.2 for the built-in SQL/postgres client (the 1.1 the sibling exporters pin lacks it).
-FROM oven/bun:1-alpine
+FROM oven/bun:1.4.3-alpine
 
 WORKDIR /app
 COPY src ./src
